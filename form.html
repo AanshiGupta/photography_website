@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form with validation</title>
+	<script type="text/javascript" src="valid.js"></script>
+	<style>
+	   #details
+	   {
+	   	height: 10vw;
+	   	width: 30vw;
+	   	background-color: #ddd;
+	   }
+	</style>
+</head>
+<body>
+<div class="form">
+<div class="reg">
+<form>
+<div id="details">
+<label>Name:</label><br>
+<input type="text" name="user" id="fuser" class="inpt" autocomplete="off"><br>
+<span id="text"></span>
+</div>
+<div id="details">
+<label>Date of Birth:</label><br>
+<input type="date" name="dob" id="dob" class="inpt" autocomplete="off"><br>
+<span id="text1"></span>
+</div>
+<div id="details">
+<label>Mobile Number</label><br>
+<input type="text" name="numb" id="number" class="inpt" autocomplete="off"><br>
+<span id="text2"></span>
+</div>
+<div id="details">
+<label>Email:</label><br>
+<input type="text" name="email" id="email" class="inpt" autocomplete="off"><br>
+<span id="text3"></span>
+</div>
+<div id="details">
+<label>Address:</label><br>
+<input type="text" name="address" id="Address" class="inpt" autocomplete="off"><br>
+<span id="text4"></span>
+</div>
+<div id="details">
+<input type="Submit"  onclick="validation();" id="button">
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
